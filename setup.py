@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup #, find_packages
 
 #Refer https://packaging.python.org/tutorials/packaging-projects/ for distribution
 
@@ -23,7 +23,7 @@ setup(
       ],
   classifiers=[
     'License :: OSI Approved :: MIT License',   # Again, pick a license
-    'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
+    'Programming Language :: Python :: 3',      #Specify which python versions that you want to support
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
